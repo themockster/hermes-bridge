@@ -1,0 +1,24 @@
+{
+  "id": "hermes-bridge",
+  "title": "Hermes Bridge",
+  "description": "REST API bridge for Hermes Agent — create scenes, actors, and tokens via WebSocket relay.",
+  "version": "1.5.0",
+  "authors": [
+    {
+      "name": "Mathieu",
+      "url": "https://github.com/themockster/hermes-bridge"
+    }
+  ],
+  "license": "MIT",
+  "url": "https://github.com/themockster/hermes-bridge",
+  "readme": "https://raw.githubusercontent.com/themockster/hermes-bridge/main/README.md",
+  "manifest": "https://raw.githubusercontent.com/themockster/hermes-bridge/main/module.json",
+  "download": "https://github.com/themockster/hermes-bridge/archive/refs/heads/main.zip",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "esmodules": [
+    "scripts/hermes-api.mjs"
+  ]
+}
